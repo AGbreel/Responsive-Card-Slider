@@ -1,0 +1,115 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("../images/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #030728;
+}
+
+.slider-wrapper {
+    max-width: 1200px;
+    overflow: hidden;
+    margin: 0 10px 40px;
+}
+
+.card-list .card-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    padding: 35px;
+    user-select: none;
+    /* width: 400px; */
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(30px);
+}
+
+.card-list .card-item .user-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    border: 3px solid #fff;
+    padding: 4px;
+}
+
+.card-list .card-item .user-profession {
+    font-size: 1.15rem;
+    color: #E3E3E3;
+    font-weight: 500;
+    margin: 14px 0 40px 0;
+}
+
+.card-list .card-item .message-button {
+    font-size: 1.25rem;
+    padding: 10px 35px;
+    color: #030728;
+    border-radius: 6px;
+    font-weight: 500;
+    background-color: #FFFFFF;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.card-list .card-item .message-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.slider-wrapper .swiper-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-wrapper .swiper-pagination-bullet {
+    background-color: #FFFFFF;
+    width: 10px;
+    height: 10px;
+    transition: 0.4s ease;
+}
+
+.slider-wrapper .swiper-pagination-bullet-active {
+    background-color: #FFFFFF;
+    width: 15px;
+    height: 15px;;
+}
+
+.slider-wrapper .swiper-slide-button {
+    color: #FFFFFF;
+    margin-top: -50px;
+    transition: 0.2s ease;
+    display: none;
+}
+
+.slider-wrapper .swiper-slide-button:hover {
+    color: #4658ff;
+}
+
+
+
+
+
+/* ? FONTS */
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+}

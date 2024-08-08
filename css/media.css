@@ -1,0 +1,26 @@
+/* XSmall */
+@media screen and (min-width: 470px) {
+
+    .slider-wrapper {
+        margin: 0 70px 55px 70px;
+    }
+
+    .slider-wrapper .swiper-slide-button {
+        display: block;
+    }
+}
+
+/* Small */
+@media screen and (min-width: 640px) {}
+
+/* Medium */
+@media screen and (min-width: 868px) {}
+
+/* Large */
+@media screen and (min-width: 1024px) {}
+
+/* XLarge */
+@media screen and (min-width: 1280px) {}
+
+/* 2XLarge*/
+@media screen and (min-width: 1536px) {}
